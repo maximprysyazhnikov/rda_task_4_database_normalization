@@ -67,14 +67,9 @@ INSERT INTO Warehouses (WarehouseName, WarehouseAddress, CountryID) VALUES
 
 -- Insert test data into ProductInventory
 INSERT INTO ProductInventory (ProductID, WarehouseID, Amount) VALUES
--- Basic test data - exactly 10 records
+-- Minimal test data - exactly 5 records
 (1, 1, 50),  -- Laptop Dell XPS 13 in Kyiv
-(2, 1, 30),  -- iPhone 14 Pro in Kyiv
-(3, 2, 25),  -- Samsung Galaxy S23 in Lviv
-(4, 2, 15),  -- MacBook Pro 16 in Lviv
-(5, 3, 40),  -- iPad Air in Warsaw
-(6, 3, 35),  -- Surface Pro 9 in Warsaw
-(1, 4, 20),  -- Laptop Dell XPS 13 in Berlin
-(2, 4, 45),  -- iPhone 14 Pro in Berlin
-(3, 5, 60),  -- Samsung Galaxy S23 in New York
-(4, 5, 25);  -- MacBook Pro 16 in New York
+(2, 2, 30),  -- iPhone 14 Pro in Lviv
+(3, 3, 25),  -- Samsung Galaxy S23 in Warsaw
+(4, 4, 15),  -- MacBook Pro 16 in Berlin
+(5, 5, 40);  -- iPad Air in New York
